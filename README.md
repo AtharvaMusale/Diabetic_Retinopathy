@@ -8,4 +8,4 @@ The data which was used was from APTOS 2019 Blindness Detection Challenge on Kag
 For solving this problem I have used Densenet 121 as a transfer learning baseline.
 
 ## Results - 
-![screenshot](https://drive.google.com/file/d/1_lX1aorcDEAQuy1kWIYf9FE-Nr0dvw48/view?usp=sharing)
+![image](https://drive.google.com/file/d/1_lX1aorcDEAQuy1kWIYf9FE-Nr0dvw48/view?usp=sharing)
