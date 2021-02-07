@@ -1,4 +1,6 @@
 # Diabetic_Retinopathy
+![image](https://user-images.githubusercontent.com/46114095/107138730-11a65600-693c-11eb-9b37-f3ac3c1753cf.png)
+
 # Problem definition - 
 The images of retina fundus are provided. We are given the corresponding labels with respect to each image. Each label defines the stage of diabetic retinopathy for an retina image. The stages are as follows
 0- No DR
