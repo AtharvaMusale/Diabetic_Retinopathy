@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Diabetic_Retinopathy
+# Problem definition - 
+The images of retina fundus are provided. We are given the corresponding labels with respect to each image. Each label defines the stage of diabetic retinopathy for an retina image. The stages are as follows
+0- No DR
+1- Mild
+2- Moderate
+3- Severe
+4- Proliferate
+We can think of this project as multiclass classification. 
+## Dataset - 
+The data which was used was from APTOS 2019 Blindness Detection Challenge on Kaggle
+### https://www.kaggle.com/c/aptos2019-blindness-detection/data 
 
-You can use the [editor on GitHub](https://github.com/AtharvaMusale/Diabetic_Retinopathy/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Model Used-
+For solving this problem I have used Densenet 121 as a transfer learning baseline.
+Learning Rate used was 0.005.
+Optimizer used is Adam
+Loss Function which was used is categorical crossentropy
+We are also keeping the Kappa Score as a metric
+<img width="711" alt="Screenshot 2021-01-27 at 10 13 59 AM" src="https://user-images.githubusercontent.com/46114095/105944054-8e0d7f00-6088-11eb-964b-d4e947a593d0.png">
+<img width="343" alt="Screenshot 2021-01-27 at 10 14 11 AM" src="https://user-images.githubusercontent.com/46114095/105944064-936ac980-6088-11eb-8a14-a8d23b100c68.png">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AtharvaMusale/Diabetic_Retinopathy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Results - 
+<img width="438" alt="Screenshot 2021-01-27 at 9 35 35 AM" src="https://user-images.githubusercontent.com/46114095/105941975-919f0700-6084-11eb-9f5a-5a27ef5b7009.png">
